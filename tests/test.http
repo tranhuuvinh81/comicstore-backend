@@ -1,0 +1,12 @@
+### Lấy danh sách đơn hàng
+GET http://localhost:3000/api/orders HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ2aW5oIiwiaWF0IjoxNzQwNDU0OTY0LCJleHAiOjE3NDA0NTg1NjR9.zAqMnfV9vIuL9X3w4D-37DY9iOe0E6Ykeq4VytBGypo
+
+###
+
+# ### Đặt hàng một truyện
+# POST http://localhost:3000/api/orders HTTP/1.1
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ2aW5oIiwiaWF0IjoxNzQwNDU0OTY0LCJleHAiOjE3NDA0NTg1NjR9.zAqMnfV9vIuL9X3w4D-37DY9iOe0E6Ykeq4VytBGypo
+
+
