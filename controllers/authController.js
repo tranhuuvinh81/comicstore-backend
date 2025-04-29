@@ -1,7 +1,7 @@
-const bcrypt = require("bcryptjs");
+const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const User = require("../models/user");
-const { use } = require("bcryptjs/promises");
+// const { use } = require("bcrypt/promises");
 
 // exports.login = async (req, res) => {
 //   const { username, password } = req.body;
