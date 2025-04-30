@@ -21,22 +21,14 @@
 
 // module.exports = db;
 
-const mysql = require('mysql2');
+const mysql = require('mysql2/promise');
 
-const db = mysql.createConnection({
+const db = mysql.createPool({
   host: 'hopper.proxy.rlwy.net',
   user: 'root',
   password: 'yubOgMLnnNAIEfzZCIoTQGmnjCg0tHlZ',
   database: 'railway',
   port: 28561
-});
-
-db.connect((err) => {
-  if (err) {
-    console.error('Database connection failed:', err.stack);
-    return;
-  }
-  console.log('Connected to the database.');
 });
 
 module.exports = db;
