@@ -12,7 +12,7 @@
 const mysql = require("mysql2/promise");
 
 const db = mysql.createPool({
-  host: "mysql.railway.internal", // host từ Railway
+  host: "hopper.proxy.rlwy.net", // host từ Railway
   user: "root",                  // user từ Railway
   password: "yubOgMLnnNAIEfzZCIoTQGmnjCgOtHlZ", // mật khẩu từ Railway
   database: "railway",           // tên DB từ Railway
