@@ -12,11 +12,11 @@
 const mysql = require("mysql2");
 
 const db = mysql.createPool({
-  host: "hopper.proxy.rlwy.net", // host từ Railway
+  host: "hopper.proxy.rlwy.net:28561", // host từ Railway
   user: "root",                  // user từ Railway
   password: "yubOgMLnnNAIEfzZCIoTQGmnjCgOtHlZ", // mật khẩu từ Railway
   database: "railway",           // tên DB từ Railway
-  port: 28561                    // cổng từ Railway
+  port: 3306                    // cổng từ Railway
 });
 
 module.exports = db;
