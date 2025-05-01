@@ -81,6 +81,11 @@ app.use("/api/users", require("./routes/userRoutes"));
 app.use("/api/slides", require("./routes/slideRoutes")); // Thêm route mới
 
 
+app.get('/', (req, res) => {
+  res.send('Comic Store Backend is Running');
+});
+
+
 // Thêm API cho thông tin người dùng
 app.get("/api/users/me", authMiddleware, async (req, res) => {
   const User = require("./models/user");
