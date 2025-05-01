@@ -16,7 +16,7 @@ const db = mysql.createPool({
   user: "root",                  // user từ Railway
   password: "yubOgMLnnNAIEfzZCIoTQGmnjCgOtHlZ", // mật khẩu từ Railway
   database: "railway",           // tên DB từ Railway
-  port: 3306                    // cổng từ Railway
+  port: 28561                    // cổng từ Railway
 });
 
 
