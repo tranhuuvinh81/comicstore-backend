@@ -9,7 +9,7 @@
 
 // module.exports = db;
 
-const mysql = require("mysql2/promise");
+const mysql = require("mysql2");
 
 const db = mysql.createPool({
   host: "hopper.proxy.rlwy.net", // host từ Railway
@@ -20,4 +20,5 @@ const db = mysql.createPool({
 });
 
 module.exports = db;
+
 
